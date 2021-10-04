@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+    background: url('img/back.jpg');
+    background-repeat: no-repeat;
+    background-size:cover ;
+    display:  flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    /* margin-top: -10rem; */
+    margin-top: 5rem;
+}
+ 
+.hitungmundur-container {
+    display: flex;
+
+} 
+
+.textbesar { 
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0 1rem;
+} 
+
+.hitungmundur-2 { 
+    text-align: center;
+}
+
+.hitungmundur-2 span { 
+    font-size: 1.5rem;
+}
